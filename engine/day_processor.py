@@ -1,18 +1,25 @@
-# engine/day_processor.py
+from parsers.schedule_parser import load_full_season_schedule
+from core.features.fatigue import FatigueModule
 
-from engine.game_processor import GameProcessor
-
-class DayProcessor:
+class GameProcessor:
     def __init__(self):
-        self.game_processor = GameProcessor()
+        self.fatigue = FatigueModule()
 
-    def process_day(self, games):
-        """
-        games — список игровых объектов.
-        Возвращает список контекстов (GameContext).
-        """
-        results = []
-        for game in games:
-            context = self.game_processor.process(game)
-            results.append(context)
-        return results
+        # загружаем расписание
+        schedule = load_full_season_schedule()
+        self.fatigue.load_schedule(schedule)
+
+        self.pipeline = GameModelPipeline(
+            feature_modules=[
+                self.fatigue,
+                LineupModule(),
+                PaceModule(),
+                MotivationModule(),
+                XPTSModule()
+            ],
+            model_modules=[
+                ExpectedModel(),
+                ProbabilityModel(),
+                SimulationModel()
+            ]
+        )
