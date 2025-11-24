@@ -1,0 +1,4232 @@
+[
+    {
+        "home": "Toronto Raptors",
+        "away": "Cleveland Cavaliers",
+        "home_or_base": 114.3,
+        "home_dr_base": 115.9,
+        "away_or_base": 115.4,
+        "away_dr_base": 112.9,
+        "home_or_final": 114.3,
+        "away_or_final": 115.4,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 115.28857142857144,
+        "away_xpts": 114.8239285714286,
+        "xTOTAL": 230.11250000000004,
+        "xMargin": 0.4646428571428487,
+        "win_prob_home": 0.5444605795608037,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.79,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.18458443741383868
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.08,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.13247800548647182
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -2.0,
+                "price": 1.91,
+                "model_prob": 0.41135591460283993,
+                "ev": -0.21431020310857574
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 2.0,
+                "price": 1.91,
+                "model_prob": 0.5886440853971601,
+                "ev": 0.12431020310857566
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.316818896738834,
+                "ev": -0.39487590722882704
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.683181103261166,
+                "ev": 0.30487590722882696
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.8,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.18002904320944668
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.02,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.0998103707128235
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.4291243675174345,
+                "ev": -0.1803724580417002
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.5708756324825655,
+                "ev": 0.09037245804170002
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.0,
+                "price": 1.91,
+                "model_prob": 0.32839302957456584,
+                "ev": -0.37276931351257925
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.0,
+                "price": 1.91,
+                "model_prob": 0.6716069704254342,
+                "ev": 0.2827693135125793
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.74,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.20736140843579853
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.1,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.14336721707768785
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -2.5,
+                "price": 1.91,
+                "model_prob": 0.3937674748234808,
+                "ev": -0.2479041230871517
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 2.5,
+                "price": 1.88,
+                "model_prob": 0.6062325251765193,
+                "ev": 0.13971714733185614
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.89,
+                "model_prob": 0.34013424648734725,
+                "ev": -0.35714627413891376
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.88,
+                "model_prob": 0.6598657535126528,
+                "ev": 0.2405476166037872
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.8,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.18002904320944668
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.05,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.11614418809964766
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -1.5,
+                "price": 1.87,
+                "model_prob": 0.4291243675174345,
+                "ev": -0.19753743274239743
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 1.5,
+                "price": 1.95,
+                "model_prob": 0.5708756324825655,
+                "ev": 0.11320748334100261
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.91,
+                "model_prob": 0.34013424648734725,
+                "ev": -0.35034358920916675
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.91,
+                "model_prob": 0.6598657535126528,
+                "ev": 0.2603435892091668
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.85,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.15725207218748682
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.02,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.0998103707128235
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -1.0,
+                "price": 1.9,
+                "model_prob": 0.4470376332000508,
+                "ev": -0.15062849691990354
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 1.0,
+                "price": 1.99,
+                "model_prob": 0.5529623667999493,
+                "ev": 0.10039510993189893
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.93,
+                "model_prob": 0.34013424648734725,
+                "ev": -0.34354090427941986
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.93,
+                "model_prob": 0.6598657535126528,
+                "ev": 0.2735409042794197
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.83,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.1663628605962708
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.0,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.08892115912160747
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -1.0,
+                "price": 1.87,
+                "model_prob": 0.4470376332000508,
+                "ev": -0.16403962591590493
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 1.0,
+                "price": 1.95,
+                "model_prob": 0.5529623667999493,
+                "ev": 0.07827661525990104
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.91,
+                "model_prob": 0.34013424648734725,
+                "ev": -0.35034358920916675
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.91,
+                "model_prob": 0.6598657535126528,
+                "ev": 0.2603435892091668
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.8,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.18002904320944668
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.05,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.11614418809964766
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.4291243675174345,
+                "ev": -0.1803724580417002
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.5708756324825655,
+                "ev": 0.09037245804170002
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.87,
+                "model_prob": 0.34013424648734725,
+                "ev": -0.36394895906866065
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.95,
+                "model_prob": 0.6598657535126528,
+                "ev": 0.2867382193496728
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -1.0,
+                "price": 1.87,
+                "model_prob": 0.4470376332000508,
+                "ev": -0.16403962591590493
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 1.0,
+                "price": 1.95,
+                "model_prob": 0.5529623667999493,
+                "ev": 0.07827661525990104
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.91,
+                "model_prob": 0.34013424648734725,
+                "ev": -0.35034358920916675
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.91,
+                "model_prob": 0.6598657535126528,
+                "ev": 0.2603435892091668
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Cleveland Cavaliers",
+                "price": 1.74,
+                "model_prob": 0.45553942043919626,
+                "ev": -0.20736140843579853
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Toronto Raptors",
+                "price": 2.15,
+                "model_prob": 0.5444605795608037,
+                "ev": 0.17059024605572803
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Cleveland Cavaliers",
+                "line": -2.0,
+                "price": 1.91,
+                "model_prob": 0.41135591460283993,
+                "ev": -0.21431020310857574
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Toronto Raptors",
+                "line": 2.0,
+                "price": 1.91,
+                "model_prob": 0.5886440853971601,
+                "ev": 0.12431020310857566
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.0,
+                "price": 1.91,
+                "model_prob": 0.32839302957456584,
+                "ev": -0.37276931351257925
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.0,
+                "price": 1.91,
+                "model_prob": 0.6716069704254342,
+                "ev": 0.2827693135125793
+            }
+        ]
+    },
+    {
+        "home": "Indiana Pacers",
+        "away": "Detroit Pistons",
+        "home_or_base": 121.4,
+        "home_dr_base": 119.8,
+        "away_or_base": 110.1,
+        "away_dr_base": 120.3,
+        "home_or_final": 121.4,
+        "away_or_final": 110.1,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 126.4329081632653,
+        "away_xpts": 117.88239795918366,
+        "xTOTAL": 244.31530612244896,
+        "xMargin": 8.550510204081633,
+        "win_prob_home": 0.9637844664102585,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.23,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.955454893684618
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.4,
+                "model_prob": 0.9637844664102585,
+                "ev": 3.2406516522051376
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.9037296411436668
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8137296411436667
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 234.5,
+                "price": 1.91,
+                "model_prob": 0.7367133497945232,
+                "ev": 0.4071224981075392
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 234.5,
+                "price": 1.91,
+                "model_prob": 0.2632866502054768,
+                "ev": -0.4971224981075393
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.25,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.9547305830128231
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.21,
+                "model_prob": 0.9637844664102585,
+                "ev": 3.0575326035871884
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.94,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.9022175412663422
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.94,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8422175412663422
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.0,
+                "price": 1.93,
+                "model_prob": 0.7260758412867462,
+                "ev": 0.40132637368342006
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.0,
+                "price": 1.93,
+                "model_prob": 0.2739241587132538,
+                "ev": -0.4713263736834201
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.25,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.9547305830128231
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.16,
+                "model_prob": 0.9637844664102585,
+                "ev": 3.0093433802666754
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.9037296411436668
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8137296411436667
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.0,
+                "price": 1.91,
+                "model_prob": 0.7260758412867462,
+                "ev": 0.3868048568576852
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.0,
+                "price": 1.91,
+                "model_prob": 0.2739241587132538,
+                "ev": -0.47680485685768526
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.23,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.955454893684618
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.19,
+                "model_prob": 0.9637844664102585,
+                "ev": 3.0382569142589837
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -10.0,
+                "price": 1.91,
+                "model_prob": 0.04585842654829003,
+                "ev": -0.9124104052927661
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 10.0,
+                "price": 1.91,
+                "model_prob": 0.95414157345171,
+                "ev": 0.8224104052927661
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.0,
+                "price": 1.91,
+                "model_prob": 0.7260758412867462,
+                "ev": 0.3868048568576852
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.0,
+                "price": 1.91,
+                "model_prob": 0.2739241587132538,
+                "ev": -0.47680485685768526
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.24,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.9550927383487205
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.2,
+                "model_prob": 0.9637844664102585,
+                "ev": 3.0478947589230856
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.87,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.905745774313433
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.95,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8517135079739007
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 234.5,
+                "price": 1.87,
+                "model_prob": 0.7367133497945232,
+                "ev": 0.37765396411575836
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 234.5,
+                "price": 1.95,
+                "model_prob": 0.2632866502054768,
+                "ev": -0.4865910320993202
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.24,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.9550927383487205
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.1,
+                "model_prob": 0.9637844664102585,
+                "ev": 2.9515163122820596
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.0,
+                "price": 1.87,
+                "model_prob": 0.05530013136237061,
+                "ev": -0.896588754352367
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.0,
+                "price": 1.92,
+                "model_prob": 0.9446998686376293,
+                "ev": 0.8138237477842483
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.0,
+                "price": 1.89,
+                "model_prob": 0.7260758412867462,
+                "ev": 0.3722833400319503
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.0,
+                "price": 1.88,
+                "model_prob": 0.2739241587132538,
+                "ev": -0.48502258161908285
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.24,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.9550927383487205
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.25,
+                "model_prob": 0.9637844664102585,
+                "ev": 3.0960839822435986
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.9037296411436668
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8137296411436667
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 234.5,
+                "price": 1.91,
+                "model_prob": 0.7367133497945232,
+                "ev": 0.4071224981075392
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 234.5,
+                "price": 1.91,
+                "model_prob": 0.2632866502054768,
+                "ev": -0.4971224981075393
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.9037296411436668
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8137296411436667
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.0,
+                "price": 1.91,
+                "model_prob": 0.7260758412867462,
+                "ev": 0.3868048568576852
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.0,
+                "price": 1.91,
+                "model_prob": 0.2739241587132538,
+                "ev": -0.47680485685768526
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Detroit Pistons",
+                "price": 1.25,
+                "model_prob": 0.0362155335897415,
+                "ev": -0.9547305830128231
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Indiana Pacers",
+                "price": 4.0,
+                "model_prob": 0.9637844664102585,
+                "ev": 2.855137865641034
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Detroit Pistons",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.05040332924415347,
+                "ev": -0.9037296411436668
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Indiana Pacers",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.9495966707558465,
+                "ev": 0.8137296411436667
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.7152301128942832,
+                "ev": 0.3660895156280808
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.2847698871057168,
+                "ev": -0.45608951562808087
+            }
+        ]
+    },
+    {
+        "home": "Brooklyn Nets",
+        "away": "New York Knicks",
+        "home_or_base": 114.0,
+        "home_dr_base": 115.5,
+        "away_or_base": 117.5,
+        "away_dr_base": 112.2,
+        "home_or_final": 114.0,
+        "away_or_final": 117.5,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 114.21510204081632,
+        "away_xpts": 115.0734693877551,
+        "xTOTAL": 229.2885714285714,
+        "xMargin": -0.8583673469387776,
+        "win_prob_home": 0.41838402972623956,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 6.9,
+                "model_prob": 0.41838402972623956,
+                "ev": 1.8868498051110532
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.12,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.3485901132933883
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.0,
+                "price": 1.91,
+                "model_prob": 0.8838966722997817,
+                "ev": 0.6882426440925831
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.0,
+                "price": 1.91,
+                "model_prob": 0.11610332770021825,
+                "ev": -0.7782426440925831
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 228.5,
+                "price": 1.91,
+                "model_prob": 0.5202876661006154,
+                "ev": -0.006250557747824681
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 228.5,
+                "price": 1.91,
+                "model_prob": 0.4797123338993846,
+                "ev": -0.0837494422521754
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 6.75,
+                "model_prob": 0.41838402972623956,
+                "ev": 1.824092200652117
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.1,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.36022243269886345
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.5,
+                "price": 1.87,
+                "model_prob": 0.8925397493466347,
+                "ev": 0.6690493312782071
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.5,
+                "price": 1.91,
+                "model_prob": 0.10746025065336529,
+                "ev": -0.7947509212520723
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.88,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.07023025418853157
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.88,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.049769745811468535
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 7.0,
+                "model_prob": 0.41838402972623956,
+                "ev": 1.9286882080836767
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.11,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.3544062729961258
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.5,
+                "price": 1.87,
+                "model_prob": 0.8925397493466347,
+                "ev": 0.6690493312782071
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.5,
+                "price": 1.95,
+                "model_prob": 0.10746025065336529,
+                "ev": -0.7904525112259377
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.05539350292558265
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.03460649707441743
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 6.28,
+                "model_prob": 0.41838402972623956,
+                "ev": 1.6274517066807843
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.12,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.3485901132933883
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 13.5,
+                "price": 1.91,
+                "model_prob": 0.8747713467323752,
+                "ev": 0.6708132722588367
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -13.5,
+                "price": 1.91,
+                "model_prob": 0.12522865326762478,
+                "ev": -0.7608132722588367
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.05539350292558265
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.03460649707441743
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 7.25,
+                "model_prob": 0.41838402972623956,
+                "ev": 2.033284215515237
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.1,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.36022243269886345
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.5,
+                "price": 1.87,
+                "model_prob": 0.8925397493466347,
+                "ev": 0.6690493312782071
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.5,
+                "price": 1.95,
+                "model_prob": 0.10746025065336529,
+                "ev": -0.7904525112259377
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.05539350292558265
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.03460649707441743
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 6.76,
+                "model_prob": 0.41838402972623956,
+                "ev": 1.8282760409493792
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.13,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.34277395359065077
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.0,
+                "price": 1.94,
+                "model_prob": 0.8838966722997817,
+                "ev": 0.7147595442615766
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.0,
+                "price": 1.94,
+                "model_prob": 0.11610332770021825,
+                "ev": -0.7747595442615766
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.93,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.045502335416949924
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.93,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.02449766458305014
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 6.61,
+                "model_prob": 0.41838402972623956,
+                "ev": 1.7655184364904435
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.12,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.3485901132933883
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.0,
+                "price": 1.91,
+                "model_prob": 0.8838966722997817,
+                "ev": 0.6882426440925831
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.0,
+                "price": 1.91,
+                "model_prob": 0.11610332770021825,
+                "ev": -0.7782426440925831
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.05539350292558265
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.03460649707441743
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.0,
+                "price": 1.91,
+                "model_prob": 0.8838966722997817,
+                "ev": 0.6882426440925831
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.0,
+                "price": 1.91,
+                "model_prob": 0.11610332770021825,
+                "ev": -0.7782426440925831
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.49455837543163217,
+                "ev": -0.05539350292558265
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.5,
+                "price": 1.91,
+                "model_prob": 0.5054416245683678,
+                "ev": -0.03460649707441743
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Brooklyn Nets",
+                "price": 7.25,
+                "model_prob": 0.41838402972623956,
+                "ev": 2.033284215515237
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New York Knicks",
+                "price": 1.1,
+                "model_prob": 0.5816159702737604,
+                "ev": -0.36022243269886345
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Brooklyn Nets",
+                "line": 14.0,
+                "price": 1.87,
+                "model_prob": 0.8838966722997817,
+                "ev": 0.652886777200592
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New York Knicks",
+                "line": -14.0,
+                "price": 1.95,
+                "model_prob": 0.11610332770021825,
+                "ev": -0.7735985109845744
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 229.0,
+                "price": 1.91,
+                "model_prob": 0.5074268834581768,
+                "ev": -0.030814652594882364
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 229.0,
+                "price": 1.91,
+                "model_prob": 0.49257311654182323,
+                "ev": -0.059185347405117716
+            }
+        ]
+    },
+    {
+        "home": "Miami Heat",
+        "away": "Dallas Mavericks",
+        "home_or_base": 114.4,
+        "home_dr_base": 112.7,
+        "away_or_base": 118.1,
+        "away_dr_base": 116.7,
+        "home_or_final": 114.4,
+        "away_or_final": 118.1,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 117.63732142857144,
+        "away_xpts": 114.98785714285715,
+        "xTOTAL": 232.6251785714286,
+        "xMargin": 2.649464285714288,
+        "win_prob_home": 0.7343428587362497,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.6,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.04363429145049891
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.31,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.03801085505551283
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.0,
+                "price": 1.94,
+                "model_prob": 0.6866625776009353,
+                "ev": 0.3321254005458145
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.0,
+                "price": 1.88,
+                "model_prob": 0.3133374223990647,
+                "ev": -0.41092564588975844
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.89,
+                "model_prob": 0.32868872974959584,
+                "ev": -0.3787783007732639
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.93,
+                "model_prob": 0.6713112702504042,
+                "ev": 0.2956307515832799
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.56,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.054260577101048924
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.3,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.045354283642875304
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.5,
+                "price": 1.91,
+                "model_prob": 0.7025909022716609,
+                "ev": 0.3419486233388722
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.5,
+                "price": 1.91,
+                "model_prob": 0.2974090977283391,
+                "ev": -0.4319486233388723
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.0,
+                "price": 1.91,
+                "model_prob": 0.3404340557737744,
+                "ev": -0.349770953472091
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.0,
+                "price": 1.91,
+                "model_prob": 0.6595659442262256,
+                "ev": 0.2597709534720909
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.45,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.08348286264006144
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.32,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.03066742646815035
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.0,
+                "price": 1.88,
+                "model_prob": 0.6866625776009353,
+                "ev": 0.2909256458897582
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.0,
+                "price": 1.89,
+                "model_prob": 0.3133374223990647,
+                "ev": -0.4077922716657677
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.0,
+                "price": 1.88,
+                "model_prob": 0.3404340557737744,
+                "ev": -0.3599839751453042
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.0,
+                "price": 1.88,
+                "model_prob": 0.6595659442262256,
+                "ev": 0.23998397514530412
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.6,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.04363429145049891
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.31,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.03801085505551283
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.5,
+                "price": 1.87,
+                "model_prob": 0.7025909022716609,
+                "ev": 0.313844987248006
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.5,
+                "price": 1.95,
+                "model_prob": 0.2974090977283391,
+                "ev": -0.4200522594297387
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.32868872974959584,
+                "ev": -0.37220452617827193
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.6713112702504042,
+                "ev": 0.28220452617827196
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.45,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.08348286264006144
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.33,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.023323997880787872
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.0,
+                "price": 1.91,
+                "model_prob": 0.6866625776009353,
+                "ev": 0.31152552321778626
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.0,
+                "price": 1.91,
+                "model_prob": 0.3133374223990647,
+                "ev": -0.40152552321778645
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.0,
+                "price": 1.87,
+                "model_prob": 0.3404340557737744,
+                "ev": -0.36338831570304186
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.0,
+                "price": 1.95,
+                "model_prob": 0.6595659442262256,
+                "ev": 0.2861535912411399
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.48,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.07551314840214907
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.34,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.015980569293425284
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.0,
+                "price": 1.94,
+                "model_prob": 0.6866625776009353,
+                "ev": 0.3321254005458145
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.0,
+                "price": 1.94,
+                "model_prob": 0.3133374223990647,
+                "ev": -0.39212540054581446
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.0,
+                "price": 1.88,
+                "model_prob": 0.3404340557737744,
+                "ev": -0.3599839751453042
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.0,
+                "price": 1.98,
+                "model_prob": 0.6595659442262256,
+                "ev": 0.3059405695679267
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.6,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.04363429145049891
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.31,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.03801085505551283
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.5,
+                "price": 1.87,
+                "model_prob": 0.7025909022716609,
+                "ev": 0.313844987248006
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.5,
+                "price": 1.95,
+                "model_prob": 0.2974090977283391,
+                "ev": -0.4200522594297387
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 238.5,
+                "price": 1.87,
+                "model_prob": 0.3523362322908483,
+                "ev": -0.34113124561611363
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 238.5,
+                "price": 1.95,
+                "model_prob": 0.6476637677091517,
+                "ev": 0.26294434703284586
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.5,
+                "price": 1.91,
+                "model_prob": 0.7025909022716609,
+                "ev": 0.3419486233388722
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.5,
+                "price": 1.91,
+                "model_prob": 0.2974090977283391,
+                "ev": -0.4319486233388723
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.0,
+                "price": 1.87,
+                "model_prob": 0.3404340557737744,
+                "ev": -0.36338831570304186
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.0,
+                "price": 1.95,
+                "model_prob": 0.6595659442262256,
+                "ev": 0.2861535912411399
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Dallas Mavericks",
+                "price": 3.5,
+                "model_prob": 0.2656571412637503,
+                "ev": -0.070200005576874
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Miami Heat",
+                "price": 1.33,
+                "model_prob": 0.7343428587362497,
+                "ev": -0.023323997880787872
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Dallas Mavericks",
+                "line": 8.0,
+                "price": 1.95,
+                "model_prob": 0.6866625776009353,
+                "ev": 0.3389920263218238
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Miami Heat",
+                "line": -8.0,
+                "price": 1.87,
+                "model_prob": 0.3133374223990647,
+                "ev": -0.41405902011374895
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.32868872974959584,
+                "ev": -0.37220452617827193
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.6713112702504042,
+                "ev": 0.28220452617827196
+            }
+        ]
+    },
+    {
+        "home": "New Orleans Pelicans",
+        "away": "Chicago Bulls",
+        "home_or_base": 116.1,
+        "home_dr_base": 114.1,
+        "away_or_base": 113.0,
+        "away_dr_base": 116.8,
+        "home_or_final": 116.1,
+        "away_or_final": 113.0,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 117.28642857142856,
+        "away_xpts": 111.92785714285714,
+        "xTOTAL": 229.2142857142857,
+        "xMargin": 5.358571428571423,
+        "win_prob_home": 0.8865955008224073,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.49,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.831027296225387
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.72,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.411539762236948
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.0,
+                "price": 1.91,
+                "model_prob": 0.1731761204693773,
+                "ev": -0.6692336099034893
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.0,
+                "price": 1.91,
+                "model_prob": 0.8268238795306226,
+                "ev": 0.5792336099034892
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 241.5,
+                "price": 1.91,
+                "model_prob": 0.21399766577977786,
+                "ev": -0.5912644583606244
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 241.5,
+                "price": 1.91,
+                "model_prob": 0.7860023342202221,
+                "ev": 0.5012644583606243
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.5,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.829893251233611
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.75,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.4381376272616202
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.0,
+                "price": 1.94,
+                "model_prob": 0.1731761204693773,
+                "ev": -0.6640383262894081
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.0,
+                "price": 1.94,
+                "model_prob": 0.8268238795306226,
+                "ev": 0.6040383262894078
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 242.5,
+                "price": 1.93,
+                "model_prob": 0.1956829691537757,
+                "ev": -0.622331869533213
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 242.5,
+                "price": 1.93,
+                "model_prob": 0.8043170308462243,
+                "ev": 0.5523318695332129
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.5,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.829893251233611
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.74,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.4292716722533965
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.0,
+                "price": 1.91,
+                "model_prob": 0.1731761204693773,
+                "ev": -0.6692336099034893
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.0,
+                "price": 1.91,
+                "model_prob": 0.8268238795306226,
+                "ev": 0.5792336099034892
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 242.5,
+                "price": 1.91,
+                "model_prob": 0.1956829691537757,
+                "ev": -0.6262455289162885
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 242.5,
+                "price": 1.91,
+                "model_prob": 0.8043170308462243,
+                "ev": 0.5362455289162884
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.49,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.831027296225387
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.7,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.3938078522205002
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.5,
+                "price": 1.95,
+                "model_prob": 0.16178630517253667,
+                "ev": -0.6845167049135534
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.5,
+                "price": 1.87,
+                "model_prob": 0.8382136948274633,
+                "ev": 0.5674596093273565
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 242.5,
+                "price": 1.91,
+                "model_prob": 0.1956829691537757,
+                "ev": -0.6262455289162885
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 242.5,
+                "price": 1.91,
+                "model_prob": 0.8043170308462243,
+                "ev": 0.5362455289162884
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.5,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.829893251233611
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.6,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.3051483021382593
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.0,
+                "price": 1.88,
+                "model_prob": 0.1731761204693773,
+                "ev": -0.6744288935175706
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.0,
+                "price": 1.88,
+                "model_prob": 0.8268238795306226,
+                "ev": 0.5544288935175705
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 241.5,
+                "price": 1.88,
+                "model_prob": 0.21399766577977786,
+                "ev": -0.5976843883340177
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 241.5,
+                "price": 1.88,
+                "model_prob": 0.7860023342202221,
+                "ev": 0.4776843883340176
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.48,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.8321613412171629
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.68,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.3760759422040518
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.0,
+                "price": 1.91,
+                "model_prob": 0.1731761204693773,
+                "ev": -0.6692336099034893
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.0,
+                "price": 1.91,
+                "model_prob": 0.8268238795306226,
+                "ev": 0.5792336099034892
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 242.0,
+                "price": 1.91,
+                "model_prob": 0.20471850042139128,
+                "ev": -0.6089876641951426
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 242.0,
+                "price": 1.91,
+                "model_prob": 0.7952814995786087,
+                "ev": 0.5189876641951425
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.48,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.8321613412171629
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.7,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.3938078522205002
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.5,
+                "price": 1.95,
+                "model_prob": 0.16178630517253667,
+                "ev": -0.6845167049135534
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.5,
+                "price": 1.87,
+                "model_prob": 0.8382136948274633,
+                "ev": 0.5674596093273565
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 241.5,
+                "price": 1.87,
+                "model_prob": 0.21399766577977786,
+                "ev": -0.5998243649918154
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 241.5,
+                "price": 1.95,
+                "model_prob": 0.7860023342202221,
+                "ev": 0.5327045517294331
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.0,
+                "price": 1.91,
+                "model_prob": 0.1731761204693773,
+                "ev": -0.6692336099034893
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.0,
+                "price": 1.91,
+                "model_prob": 0.8268238795306226,
+                "ev": 0.5792336099034892
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 242.0,
+                "price": 1.91,
+                "model_prob": 0.20471850042139128,
+                "ev": -0.6089876641951426
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 242.0,
+                "price": 1.91,
+                "model_prob": 0.7952814995786087,
+                "ev": 0.5189876641951425
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Chicago Bulls",
+                "price": 1.48,
+                "model_prob": 0.11340449917759265,
+                "ev": -0.8321613412171629
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "New Orleans Pelicans",
+                "price": 2.75,
+                "model_prob": 0.8865955008224073,
+                "ev": 1.4381376272616202
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Chicago Bulls",
+                "line": -5.5,
+                "price": 1.95,
+                "model_prob": 0.16178630517253667,
+                "ev": -0.6845167049135534
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "New Orleans Pelicans",
+                "line": 5.5,
+                "price": 1.87,
+                "model_prob": 0.8382136948274633,
+                "ev": 0.5674596093273565
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 242.5,
+                "price": 1.91,
+                "model_prob": 0.1956829691537757,
+                "ev": -0.6262455289162885
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 242.5,
+                "price": 1.91,
+                "model_prob": 0.8043170308462243,
+                "ev": 0.5362455289162884
+            }
+        ]
+    },
+    {
+        "home": "Memphis Grizzlies",
+        "away": "Denver Nuggets",
+        "home_or_base": 108.9,
+        "home_dr_base": 114.8,
+        "away_or_base": 118.2,
+        "away_dr_base": 112.0,
+        "home_or_final": 108.9,
+        "away_or_final": 118.2,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 111.48484693877549,
+        "away_xpts": 114.95459183673468,
+        "xTOTAL": 226.43943877551015,
+        "xMargin": -3.4697448979591883,
+        "win_prob_home": 0.2089008098411646,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.34,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.060072914812839384
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.4,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.2897372465400404
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.93,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.31091622807144115
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.89,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.21519775702332833
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.89,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.38694530630345547
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.93,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.3039706037913592
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.33,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.0521619229112511
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.45,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.2792922060479821
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.91,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.31805699254738484
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.91,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.22805699254738476
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.87,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.3934326575595035
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.95,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.31748325253531107
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.34,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.060072914812839384
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.25,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.3210723680162151
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.88,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.3287681392613002
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.88,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.2087681392613001
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.89,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.38694530630345547
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.88,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.27018898193147933
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.32,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.0442509310096626
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.4,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.2897372465400404
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.91,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.31805699254738484
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.91,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.22805699254738476
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.91,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.3804579550474074
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.91,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.29045795504740735
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.34,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.060072914812839384
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.48,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.27302518175274715
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.9,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.32162737478535663
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.99,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.2794939346436103
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.93,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.37397060379135927
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.93,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.3039706037913592
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.33,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.0521619229112511
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.45,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.2792922060479821
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.87,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.3323385214992719
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.95,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.2537754635954974
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.91,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.3804579550474074
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.91,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.29045795504740735
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.33,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.0521619229112511
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.4,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.2897372465400404
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.91,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.31805699254738484
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.91,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.22805699254738476
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.5,
+                "price": 1.91,
+                "model_prob": 0.32436756280240453,
+                "ev": -0.3804579550474074
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.5,
+                "price": 1.91,
+                "model_prob": 0.6756324371975955,
+                "ev": 0.29045795504740735
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.87,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.3323385214992719
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.95,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.2537754635954974
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 233.0,
+                "price": 1.91,
+                "model_prob": 0.33605205265780946,
+                "ev": -0.3581405794235839
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 233.0,
+                "price": 1.91,
+                "model_prob": 0.6639479473421905,
+                "ev": 0.2681405794235838
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Denver Nuggets",
+                "price": 1.31,
+                "model_prob": 0.7910991901588353,
+                "ev": 0.036339939108074315
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Memphis Grizzlies",
+                "price": 3.6,
+                "model_prob": 0.2089008098411646,
+                "ev": -0.24795708457180743
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Denver Nuggets",
+                "line": -7.5,
+                "price": 1.91,
+                "model_prob": 0.35703822379718075,
+                "ev": -0.31805699254738484
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Memphis Grizzlies",
+                "line": 7.5,
+                "price": 1.91,
+                "model_prob": 0.6429617762028192,
+                "ev": 0.22805699254738476
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 234.0,
+                "price": 1.91,
+                "model_prob": 0.3128534971634924,
+                "ev": -0.4024498204177295
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 234.0,
+                "price": 1.91,
+                "model_prob": 0.6871465028365076,
+                "ev": 0.3124498204177295
+            }
+        ]
+    },
+    {
+        "home": "Milwaukee Bucks",
+        "away": "Portland Trail Blazers",
+        "home_or_base": 119.9,
+        "home_dr_base": 116.4,
+        "away_or_base": 109.8,
+        "away_dr_base": 118.9,
+        "home_or_final": 119.9,
+        "away_or_final": 109.8,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 122.38734693877552,
+        "away_xpts": 113.56163265306122,
+        "xTOTAL": 235.94897959183675,
+        "xMargin": 8.825714285714298,
+        "win_prob_home": 0.9672955529867315,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.81,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7508049509059842
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.06,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9326288391526669
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -2.0,
+                "price": 1.94,
+                "model_prob": 0.7325420836428181,
+                "ev": 0.42113164226706723
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 2.0,
+                "price": 1.88,
+                "model_prob": 0.26745791635718186,
+                "ev": -0.49717911724849817
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.72,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.6637483511371782
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.12,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9306665723318709
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -2.5,
+                "price": 1.88,
+                "model_prob": 0.717376309207007,
+                "ev": 0.34866746130917314
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 2.5,
+                "price": 1.89,
+                "model_prob": 0.282623690792993,
+                "ev": -0.4658412244012433
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 236.5,
+                "price": 1.88,
+                "model_prob": 0.4858207067682099,
+                "ev": -0.0866570712757655
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 236.5,
+                "price": 1.89,
+                "model_prob": 0.5141792932317901,
+                "ev": -0.028201135791916743
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.8,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7411319953761168
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.03,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.933609972563065
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.7472861486899234,
+                "ev": 0.42731654399775354
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.2527138513100767,
+                "ev": -0.5173165439977536
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.8,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7411319953761168
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.05,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9329558836227997
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.7472861486899234,
+                "ev": 0.42731654399775354
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.2527138513100767,
+                "ev": -0.5173165439977536
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.81,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7508049509059842
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.07,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9323017946825343
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -1.5,
+                "price": 1.94,
+                "model_prob": 0.7472861486899234,
+                "ev": 0.4497351284584514
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 1.5,
+                "price": 1.94,
+                "model_prob": 0.2527138513100767,
+                "ev": -0.5097351284584513
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.93,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.012700170213601925
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.93,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.05729982978639814
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.8,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7411319953761168
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.05,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9329558836227997
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.7472861486899234,
+                "ev": 0.42731654399775354
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.2527138513100767,
+                "ev": -0.5173165439977536
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.77,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7121131287865148
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.05,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9329558836227997
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.7472861486899234,
+                "ev": 0.42731654399775354
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.2527138513100767,
+                "ev": -0.5173165439977536
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -1.5,
+                "price": 1.91,
+                "model_prob": 0.7472861486899234,
+                "ev": 0.42731654399775354
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 1.5,
+                "price": 1.91,
+                "model_prob": 0.2527138513100767,
+                "ev": -0.5173165439977536
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Milwaukee Bucks",
+                "price": 1.77,
+                "model_prob": 0.9672955529867315,
+                "ev": 0.7121131287865148
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Portland Trail Blazers",
+                "price": 2.1,
+                "model_prob": 0.03270444701326847,
+                "ev": -0.9313206612721362
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Milwaukee Bucks",
+                "line": -2.0,
+                "price": 1.91,
+                "model_prob": 0.7325420836428181,
+                "ev": 0.3991553797577827
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Portland Trail Blazers",
+                "line": 2.0,
+                "price": 1.91,
+                "model_prob": 0.26745791635718186,
+                "ev": -0.48915537975778267
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.5115543159515016,
+                "ev": -0.02293125653263206
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 235.5,
+                "price": 1.91,
+                "model_prob": 0.4884456840484984,
+                "ev": -0.06706874346736802
+            }
+        ]
+    },
+    {
+        "home": "Phoenix Suns",
+        "away": "Houston Rockets",
+        "home_or_base": 117.1,
+        "home_dr_base": 115.5,
+        "away_or_base": 113.3,
+        "away_dr_base": 112.0,
+        "home_or_final": 117.1,
+        "away_or_final": 113.3,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 115.9395663265306,
+        "away_xpts": 113.29102040816326,
+        "xTOTAL": 229.23058673469387,
+        "xMargin": 2.6485459183673328,
+        "win_prob_home": 0.7342740985398334,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.48,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6067256658389535
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.76,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.0265965119699398
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.91,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5618185699394682
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.91,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.47181856993946814
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.08854449262075281
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.17854449262075278
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.44,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6173547018973601
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.85,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.0926811808385253
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.87,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5709951443909976
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.95,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.5026419954879386
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.08854449262075281
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.17854449262075278
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.45,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6146974428827584
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.86,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.1000239218239236
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.87,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5709951443909976
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.95,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.5026419954879386
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.95,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.11134123592171097
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.87,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.19574774931979455
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.46,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6120401838681567
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.88,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.1147094037947203
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.9,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5641127135523505
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.99,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.5334654210364091
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.98,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.12843879339742958
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.88,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.1914469351450342
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.44,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6173547018973601
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.85,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.0926811808385253
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.87,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5709951443909976
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.95,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.5026419954879386
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.08854449262075281
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.17854449262075278
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.48,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6067256658389535
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.65,
+                "model_prob": 0.7342740985398334,
+                "ev": 0.9458263611305584
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.92,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5595244263265858
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.85,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.4255834316167624
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 227.5,
+                "price": 1.88,
+                "model_prob": 0.544449837370104,
+                "ev": 0.023565694255795355
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 227.5,
+                "price": 1.88,
+                "model_prob": 0.455550162629896,
+                "ev": -0.14356569425579557
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.44,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6173547018973601
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.82,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.0706529578823298
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -6.0,
+                "price": 1.91,
+                "model_prob": 0.21586595294179367,
+                "ev": -0.5876960298811741
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 6.0,
+                "price": 1.91,
+                "model_prob": 0.7841340470582063,
+                "ev": 0.4976960298811741
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.08854449262075281
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.17854449262075278
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -5.5,
+                "price": 1.87,
+                "model_prob": 0.22941436128823656,
+                "ev": -0.5709951443909976
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 5.5,
+                "price": 1.95,
+                "model_prob": 0.7705856387117634,
+                "ev": 0.5026419954879386
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.08854449262075281
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.17854449262075278
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Houston Rockets",
+                "price": 1.43,
+                "model_prob": 0.2657259014601666,
+                "ev": -0.6200119609119618
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Phoenix Suns",
+                "price": 2.95,
+                "model_prob": 0.7342740985398334,
+                "ev": 1.1661085906925086
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Houston Rockets",
+                "line": -6.0,
+                "price": 1.91,
+                "model_prob": 0.21586595294179367,
+                "ev": -0.5876960298811741
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Phoenix Suns",
+                "line": 6.0,
+                "price": 1.91,
+                "model_prob": 0.7841340470582063,
+                "ev": 0.4976960298811741
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.5699185825239543,
+                "ev": 0.08854449262075281
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 226.5,
+                "price": 1.91,
+                "model_prob": 0.43008141747604567,
+                "ev": -0.17854449262075278
+            }
+        ]
+    },
+    {
+        "home": "Golden State Warriors",
+        "away": "Utah Jazz",
+        "home_or_base": 117.8,
+        "home_dr_base": 115.1,
+        "away_or_base": 114.7,
+        "away_dr_base": 118.2,
+        "home_or_final": 117.8,
+        "away_or_final": 114.7,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 123.87142857142857,
+        "away_xpts": 118.18285714285713,
+        "xTOTAL": 242.0542857142857,
+        "xMargin": 5.688571428571436,
+        "win_prob_home": 0.8987188523468381,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.11,
+                "model_prob": 0.8987188523468381,
+                "ev": -0.002422073895009591
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 7.1,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.2809038516625507
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -14.0,
+                "price": 1.91,
+                "model_prob": 0.22494920130226037,
+                "ev": -0.5703470255126828
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 14.0,
+                "price": 1.91,
+                "model_prob": 0.7750507986977396,
+                "ev": 0.4803470255126827
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.08000261663059938
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.17000261663059957
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.13,
+                "model_prob": 0.8987188523468381,
+                "ev": 0.015552303151926905
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 6.76,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.3153394418646257
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.94,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5367051033884725
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.94,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4767051033884726
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.88,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.06303922474634915
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.98,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.13958386436051673
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.12,
+                "model_prob": 0.8987188523468381,
+                "ev": 0.006565114628458879
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 6.61,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.3305316140126
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.91,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5438694574597849
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.91,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4538694574597848
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.87,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.05738476078493249
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.95,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.15262047247626653
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.11,
+                "model_prob": 0.8987188523468381,
+                "ev": -0.002422073895009591
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 7.0,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.2910319664278669
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.87,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5534219295548679
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.95,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4843169853647018
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.89,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.06869368870776604
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.93,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.161311544553433
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.11,
+                "model_prob": 0.8987188523468381,
+                "ev": -0.002422073895009591
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 7.0,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.2910319664278669
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.91,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5438694574597849
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.91,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4538694574597848
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.08000261663059938
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.17000261663059957
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.12,
+                "model_prob": 0.8987188523468381,
+                "ev": 0.006565114628458879
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 6.4,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.351800655019764
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -14.0,
+                "price": 1.88,
+                "model_prob": 0.22494920130226037,
+                "ev": -0.5770955015517505
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 14.0,
+                "price": 1.88,
+                "model_prob": 0.7750507986977396,
+                "ev": 0.4570955015517504
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 240.0,
+                "price": 1.89,
+                "model_prob": 0.5527192562779513,
+                "ev": 0.04463939436532782
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 240.0,
+                "price": 1.88,
+                "model_prob": 0.44728074372204873,
+                "ev": -0.15911220180254848
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.11,
+                "model_prob": 0.8987188523468381,
+                "ev": -0.002422073895009591
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 6.73,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.31837787629422054
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.91,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5438694574597849
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.91,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4538694574597848
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.08000261663059938
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.17000261663059957
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.91,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5438694574597849
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.91,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4538694574597848
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.87,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.05738476078493249
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.95,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.15262047247626653
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Golden State Warriors",
+                "price": 1.12,
+                "model_prob": 0.8987188523468381,
+                "ev": 0.006565114628458879
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Utah Jazz",
+                "price": 6.5,
+                "model_prob": 0.10128114765316187,
+                "ev": -0.3416725402544478
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Golden State Warriors",
+                "line": -13.5,
+                "price": 1.91,
+                "model_prob": 0.238811802377076,
+                "ev": -0.5438694574597849
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Utah Jazz",
+                "line": 13.5,
+                "price": 1.91,
+                "model_prob": 0.761188197622924,
+                "ev": 0.4538694574597848
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.5654463961416751,
+                "ev": 0.08000261663059938
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 239.5,
+                "price": 1.91,
+                "model_prob": 0.43455360385832487,
+                "ev": -0.17000261663059957
+            }
+        ]
+    },
+    {
+        "home": "Sacramento Kings",
+        "away": "Minnesota Timberwolves",
+        "home_or_base": 118.0,
+        "home_dr_base": 117.6,
+        "away_or_base": 116.3,
+        "away_dr_base": 112.0,
+        "home_or_final": 118.0,
+        "away_or_final": 116.3,
+        "home_injury_impact": 0.0,
+        "away_injury_impact": 0.0,
+        "home_motivation": 0.0,
+        "away_motivation": 0.0,
+        "home_fatigue": 0.0,
+        "away_fatigue": 0.0,
+        "home_xpts": 117.67602040816327,
+        "away_xpts": 117.12900510204081,
+        "xTOTAL": 234.80502551020408,
+        "xMargin": 0.5470153061224607,
+        "win_prob_home": 0.5522893354306982,
+        "value_lines": [
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.23,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.44931588257975885
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.4,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.4300730758950726
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.1805252961379334,
+                "ev": -0.6551966843765473
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.8194747038620667,
+                "ev": 0.5651966843765472
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.17682040440549585
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.08682040440549588
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.26,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.43588456264267983
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.11,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.26990916862017
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.0,
+                "price": 1.94,
+                "model_prob": 0.1927216700151046,
+                "ev": -0.626119960170697
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.0,
+                "price": 1.94,
+                "model_prob": 0.8072783299848953,
+                "ev": 0.566119960170697
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.88,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.18974992684938863
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.98,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.12665151870307945
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.26,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.43588456264267983
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.06,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.2422947018486346
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.0,
+                "price": 1.91,
+                "model_prob": 0.1927216700151046,
+                "ev": -0.6319016102711502
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.0,
+                "price": 1.91,
+                "model_prob": 0.8072783299848953,
+                "ev": 0.54190161027115
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.87,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.19405976766401944
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.95,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.1095810411469722
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.25,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.44036166928837284
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.1,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.2643862752658626
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.5,
+                "price": 1.95,
+                "model_prob": 0.1805252961379334,
+                "ev": -0.64797567253103
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.5,
+                "price": 1.87,
+                "model_prob": 0.8194747038620667,
+                "ev": 0.5324176962220648
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.17682040440549585
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.08682040440549588
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.27,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.4314074559969867
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 3.8,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.0986994746366534
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.0,
+                "price": 1.89,
+                "model_prob": 0.1927216700151046,
+                "ev": -0.6357560436714523
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.0,
+                "price": 1.88,
+                "model_prob": 0.8072783299848953,
+                "ev": 0.5176832603716031
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.0,
+                "price": 1.91,
+                "model_prob": 0.443693537213785,
+                "ev": -0.15254534392167063
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.0,
+                "price": 1.88,
+                "model_prob": 0.556306462786215,
+                "ev": 0.045856150038084076
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.25,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.44036166928837284
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.1,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.2643862752658626
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.5,
+                "price": 1.95,
+                "model_prob": 0.1805252961379334,
+                "ev": -0.64797567253103
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.5,
+                "price": 1.87,
+                "model_prob": 0.8194747038620667,
+                "ev": 0.5324176962220648
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.17682040440549585
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.08682040440549588
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.24,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.44483877593406584
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.09,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.2588633819115556
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.1805252961379334,
+                "ev": -0.6551966843765473
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.8194747038620667,
+                "ev": 0.5651966843765472
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.17682040440549585
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.08682040440549588
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.0,
+                "price": 1.87,
+                "model_prob": 0.1927216700151046,
+                "ev": -0.6396104770717543
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.0,
+                "price": 1.95,
+                "model_prob": 0.8072783299848953,
+                "ev": 0.5741927434705458
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.87,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.19405976766401944
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.95,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.1095810411469722
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Minnesota Timberwolves",
+                "price": 1.22,
+                "model_prob": 0.44771066456930175,
+                "ev": -0.45379298922545186
+            },
+            {
+                "market": "\u043f\u043e\u0431\u0435\u0434\u0430",
+                "team": "Sacramento Kings",
+                "price": 4.35,
+                "model_prob": 0.5522893354306982,
+                "ev": 1.4024586091235371
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Minnesota Timberwolves",
+                "line": -9.5,
+                "price": 1.91,
+                "model_prob": 0.1805252961379334,
+                "ev": -0.6551966843765473
+            },
+            {
+                "market": "\u0444\u043e\u0440\u0430",
+                "team": "Sacramento Kings",
+                "line": 9.5,
+                "price": 1.91,
+                "model_prob": 0.8194747038620667,
+                "ev": 0.5651966843765472
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Over",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.4309840814630912,
+                "ev": -0.17682040440549585
+            },
+            {
+                "market": "\u0442\u043e\u0442\u0430\u043b",
+                "side": "Under",
+                "line": 237.5,
+                "price": 1.91,
+                "model_prob": 0.5690159185369088,
+                "ev": 0.08682040440549588
+            }
+        ]
+    }
+]
