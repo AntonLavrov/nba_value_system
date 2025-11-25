@@ -2,29 +2,28 @@
 
 import json
 
-
-def export_to_json(contexts, path):
+def export_to_json_flat(contexts, path):
     """
-    Экспортирует результаты в JSON.
+    Экспортирует список контекстов матчей в плоский JSON для фронтенда.
+    Каждый контекст должен иметь метод to_flat_dict().
     """
-
-    out = []
-
+    flat = []
     for ctx in contexts:
-        row = {
-            "game_id": ctx.game_id,
-            "date": str(ctx.date),
-            "home": ctx.home,
-            "away": ctx.away,
-        }
-
-        # фичи
-        row.update(ctx.features)
-
-        # результаты моделей
-        row.update(ctx.model_outputs)
-
-        out.append(row)
+        if hasattr(ctx, "to_flat_dict"):
+            flat.append(ctx.to_flat_dict())
+        else:
+            # fallback — если почему-то нет метода
+            base = {
+                "game_id": ctx.game_id,
+                "date": str(ctx.date),
+                "home": ctx.home,
+                "away": ctx.away,
+            }
+            if hasattr(ctx, "features"):
+                base.update(ctx.features)
+            if hasattr(ctx, "model_outputs"):
+                base.update(ctx.model_outputs)
+            flat.append(base)
 
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=4)
+        json.dump(flat, f, ensure_ascii=False, indent=2)
