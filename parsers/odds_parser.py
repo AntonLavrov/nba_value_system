@@ -1,26 +1,31 @@
-import requests
+# parsers/odds_parser.py
+
 import json
-from config import ODDS_API_KEY, ODDS_API_REGION, ODDS_API_MARKETS
+from typing import Dict
 
 
-def load_odds():
-    """Загружает линии NBA через The Odds API"""
-    url = "https://api.the-odds-api.com/v4/sports/basketball_nba/odds/"
+def load_odds(path: str = "data/raw_odds.json") -> Dict[str, Dict[str, float]]:
+    """
+    Загружает коэффициенты на матчи.
 
-    params = {
-        "apiKey": ODDS_API_KEY,
-        "regions": ODDS_API_REGION,
-        "markets": ",".join(ODDS_API_MARKETS),
-        "oddsFormat": "decimal"
+    Формат raw_odds.json:
+
+    {
+      "12345": {
+         "home": 1.70,
+         "away": 2.20
+      }
     }
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        raw = json.load(f)
 
-    response = requests.get(url, params=params)
-    data = response.json()
+    odds = {}
 
-    return data
+    for game_id, entry in raw.items():
+        odds[game_id] = {
+            "home": float(entry.get("home", 0)),
+            "away": float(entry.get("away", 0)),
+        }
 
-
-def save_raw_odds(data, path="data/raw_odds.json"):
-    """Сохраняет сырые линии в JSON"""
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
+    return odds
