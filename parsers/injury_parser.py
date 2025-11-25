@@ -1,18 +1,28 @@
-import requests
+# parsers/injury_parser.py
+
 import json
+from typing import Dict, List
 
 
-def load_injuries():
-    """Парсер травм с ESPN API"""
-    url = "https://site.api.espn.com/apis/v2/sports/basketball/nba/injuries"
+def load_injuries(path: str = "data/injuries_today.json") -> Dict[str, List[str]]:
+    """
+    Загружает список травм.
 
-    response = requests.get(url)
-    data = response.json()
+    Формат injuries_today.json:
+    {
+      "LAL": ["LeBron James"],
+      "GSW": ["Stephen Curry", "Klay Thompson"]
+    }
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    return data
+    injuries = {}
 
+    for team, players in data.items():
+        if isinstance(players, list):
+            injuries[team] = players
+        else:
+            injuries[team] = []
 
-def save_injuries(data, path="data/injuries_today.json"):
-    """Сохраняем"""
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
+    return injuries
