@@ -1,0 +1,6 @@
+{
+  "LAL": {"off_xpts_per_game": 113.5, "def_xpts_per_game": 111.9},
+  "GSW": {"off_xpts_per_game": 115.8, "def_xpts_per_game": 117.1},
+  "BOS": {"off_xpts_per_game": 118.2, "def_xpts_per_game": 109.4},
+  "MIA": {"off_xpts_per_game": 110.7, "def_xpts_per_game": 108.9}
+}

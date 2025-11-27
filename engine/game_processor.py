@@ -1,67 +1,51 @@
-# engine/game_processor.py
+from __future__ import annotations
 
 from core.context import GameContext
 from core.pipeline import GameModelPipeline
-
-# === FEATURES ===
 from core.features.fatigue import FatigueModule
 from core.features.lineup import LineupModule
 from core.features.pace import PaceModule
 from core.features.motivation import MotivationModule
 from core.features.xpts import XPTSModule
 
-# === MODELS ===
 from core.model.expected import ExpectedModel
-from core.model.probabilities import ProbabilityModel
 from core.model.simulation import SimulationModel
+from core.model.probabilities import ProbabilityModel
 from core.model.value import ValueModel
-
-# === PARSERS ===
-from parsers.schedule_parser import load_full_season_schedule
 
 
 class GameProcessor:
     """
-    Обрабатывает одну игру: создаёт GameContext, запускает pipeline.
+    Создаёт GameContext, добавляет фичи вручную (из объекта Game),
+    запускает feature-модули и модельные модули.
     """
 
     def __init__(self):
-        # ----------------------
-        # F A T I G U E   E N G I N E
-        # ----------------------
         self.fatigue = FatigueModule()
 
-        # Загружаем расписание (для усталости)
-        schedule = load_full_season_schedule()
-        self.fatigue.load_schedule(schedule)
-
-        # ----------------------
-        # P I P E L I N E
-        # ----------------------
         self.pipeline = GameModelPipeline(
             feature_modules=[
-                self.fatigue,         # усталость
-                LineupModule(),       # состав / травмы
-                PaceModule(),         # темп
-                MotivationModule(),   # мотивация
-                XPTSModule()          # качество бросков / xPTS
+                self.fatigue,
+                LineupModule(),
+                PaceModule(),
+                MotivationModule(),
+                XPTSModule(),
             ],
             model_modules=[
-                ExpectedModel(),      # ожидаемый дифф
-                ProbabilityModel(),   # вероятность победы
-                SimulationModel(),    # Монте-Карло
-                ValueModel()          # edge / Kelly (value ставки)
+                ExpectedModel(),
+                SimulationModel(),
+                ProbabilityModel(),
+                ValueModel(),
             ]
         )
 
-    # ===================================================================
+    # -------------------------------------------------------
 
     def process(self, game):
         """
-        Игра → GameContext → полная модель → прогноз.
+        game — объект класса Game (data/game_object.py)
         """
 
-        # Создаём context
         context = GameContext(
             game_id=game.id,
             date=game.date,
@@ -69,41 +53,52 @@ class GameProcessor:
             away=game.away
         )
 
-        # --------------------------------------------
-        # ДОБАВЛЯЕМ ВСЕ ДАННЫЕ ОТ ПАРСЕРОВ:
-        # --------------------------------------------
+        # ---------------------------
+        #     Базовые фичи из Game
+        # ---------------------------
+        if game.rating_home is not None:
+            context.add_feature("rating_home", float(game.rating_home))
+        if game.rating_away is not None:
+            context.add_feature("rating_away", float(game.rating_away))
 
-        # Рейтинги команд
-        if hasattr(game, "rating_home"):
-            context.add_feature("rating_home", game.rating_home)
-        if hasattr(game, "rating_away"):
-            context.add_feature("rating_away", game.rating_away)
+        context.add_feature("injuries_home", game.injuries_home)
+        context.add_feature("injuries_away", game.injuries_away)
 
-        # Травмы
-        if hasattr(game, "injuries_home"):
-            context.add_feature("injuries_home", game.injuries_home)
-        else:
-            context.add_feature("injuries_home", [])
-
-        if hasattr(game, "injuries_away"):
-            context.add_feature("injuries_away", game.injuries_away)
-        else:
-            context.add_feature("injuries_away", [])
-
-        # Коэффициенты на матч
+        # ---------------------------
+        #     ODDS / Lines
+        # ---------------------------
         if hasattr(game, "odds") and isinstance(game.odds, dict):
-            odds_home = game.odds.get("home")
-            odds_away = game.odds.get("away")
-            if odds_home is not None:
-                context.add_feature("odds_home", float(odds_home))
-            if odds_away is not None:
-                context.add_feature("odds_away", float(odds_away))
+            odds = game.odds
 
-        # Домашний фактор (можно вынести в config)
-        context.add_feature("home_court_adv", 2.5)
+            # Moneyline
+            if "home" in odds:
+                context.add_feature("odds_home", float(odds["home"]))
+            if "away" in odds:
+                context.add_feature("odds_away", float(odds["away"]))
 
-        # --------------------------------------------
-        # ЗАПУСК ПАЙПЛАЙНА
-        # --------------------------------------------
-        context = self.pipeline.run_for_game(context)
-        return context
+            # Spread
+            for key in ("spread_line", "spread_odds_home", "spread_odds_away"):
+                if key in odds:
+                    context.add_feature(key, float(odds[key]))
+
+            # Total
+            for key in ("total_line", "total_over_odds", "total_under_odds"):
+                if key in odds:
+                    context.add_feature(key, float(odds[key]))
+
+            # Team totals
+            for key in (
+                "home_team_total",
+                "home_team_total_over_odds",
+                "home_team_total_under_odds",
+                "away_team_total",
+                "away_team_total_over_odds",
+                "away_team_total_under_odds",
+            ):
+                if key in odds:
+                    context.add_feature(key, float(odds[key]))
+
+        # ---------------------------
+        #   Запуск PIPELINE
+        # ---------------------------
+        return self.pipeline.run_for_game(context)

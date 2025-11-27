@@ -1,0 +1,50 @@
+# -------------------------------
+# PYTHON
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+.venv/
+
+# -------------------------------
+# DATA / OUTPUTS (генерируемые)
+# -------------------------------
+outputs/
+web/outputs/
+backups/
+backup_models/
+
+# Логи и временные файлы
+nohup.out
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Все временные ZIP/TAR файлы
+*.zip
+*.tar
+*.gz
+
+# -------------------------------
+# NODE / WEB
+# -------------------------------
+node_modules/
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# CUSTOM (NBA project specifics)
+# -------------------------------
+nba_project.zip
+value_today.json
+value_top20.json

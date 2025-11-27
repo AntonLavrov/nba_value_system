@@ -4,19 +4,36 @@ from openpyxl import Workbook
 from core.export.labels_ru import COLUMN_LABELS_RU
 
 
+def _excel_safe(value):
+    """
+    Excel не принимает списки и сложные структуры.
+    Преобразуем:
+      - списки -> строка "a, b, c"
+      - None -> ""
+      - другие типы оставляем как есть
+    """
+    if value is None:
+        return ""
+    if isinstance(value, list):
+        if len(value) == 0:
+            return "-"
+        # конвертируем список в строку
+        return ", ".join(str(v) for v in value)
+    return value
+
+
 def export_to_xlsx(contexts, path):
     wb = Workbook()
     ws = wb.active
     ws.title = "NBA Модель"
 
     # -----------------------------------------
-    # Список всех возможных колонок
+    # Список всех колонок
     # -----------------------------------------
     columns = [
         "game_id", "date", "home", "away",
     ]
 
-    # добавляем динамические ключи
     dynamic_keys = set()
     for ctx in contexts:
         dynamic_keys.update(ctx.features.keys())
@@ -25,7 +42,7 @@ def export_to_xlsx(contexts, path):
     columns.extend(sorted(dynamic_keys))
 
     # -----------------------------------------
-    # Заголовки (по-русски)
+    # Заголовки (русские)
     # -----------------------------------------
     header = []
     for col in columns:
@@ -33,27 +50,29 @@ def export_to_xlsx(contexts, path):
     ws.append(header)
 
     # -----------------------------------------
-    # Данные
+    # Строки данных
     # -----------------------------------------
     for ctx in contexts:
         row = []
         for col in columns:
-            val = (
-                ctx.features.get(col)
-                if col in ctx.features
-                else ctx.model_outputs.get(col)
-            )
-            # базовая информация
             if col == "game_id":
                 val = ctx.game_id
-            if col == "date":
+            elif col == "date":
                 val = str(ctx.date)
-            if col == "home":
+            elif col == "home":
                 val = ctx.home
-            if col == "away":
+            elif col == "away":
                 val = ctx.away
+            else:
+                if col in ctx.features:
+                    val = ctx.features[col]
+                else:
+                    val = ctx.model_outputs.get(col)
 
+            # Делаем значение "Excel-безопасным"
+            val = _excel_safe(val)
             row.append(val)
+
         ws.append(row)
 
     wb.save(path)

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Inter", Arial, sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* LIGHT THEME */
+body[data-theme="light"] {
+    background: #ffffff;
+    color: #000000;
+}
+
+body[data-theme="light"] table {
+    background: #f7f7f7;
+    color: #000000;
+    border-color: #d0d0d0;
+}
+
+body[data-theme="light"] thead tr {
+    background: #e6e6e6;
+}
+
+body[data-theme="light"] tbody tr:hover {
+    background: #eeeeee;
+}
+
+body[data-theme="light"] th,
+body[data-theme="light"] td {
+    border-color: #cfcfcf;
+}
+
+/* DARK THEME */
+body[data-theme="dark"] {
+    background: #0d1117;
+    color: #e6edf3;
+}
+
+body[data-theme="dark"] table {
+    background: #161b22;
+    color: #e6edf3;
+    border-color: #30363d;
+}
+
+body[data-theme="dark"] thead tr {
+    background: #21262d;
+}
+
+body[data-theme="dark"] tbody tr:hover {
+    background: #2b3036;
+}
+
+body[data-theme="dark"] th,
+body[data-theme="dark"] td {
+    border-color: #30363d;
+}
+
+/* COMMON TABLE STYLES */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid;
+    text-align: center;
+}
+
+th {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* BUTTONS */
+button {
+    padding: 6px 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -36,3 +36,4 @@ class DayProcessor:
             results.append(ctx)
 
         return results
+print("DEBUG RESULT:", result)

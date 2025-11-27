@@ -1,0 +1,22 @@
+{
+  "LAL": {
+    "LeBron James": 4.5,
+    "Anthony Davis": 4.0,
+    "D'Angelo Russell": 1.2
+  },
+  "GSW": {
+    "Stephen Curry": 5.0,
+    "Klay Thompson": 2.0,
+    "Draymond Green": 1.8
+  },
+  "BOS": {
+    "Jayson Tatum": 5.0,
+    "Jaylen Brown": 3.8,
+    "Kristaps Porzingis": 2.5
+  },
+  "MIA": {
+    "Jimmy Butler": 4.0,
+    "Bam Adebayo": 3.2,
+    "Tyler Herro": 2.5
+  }
+}

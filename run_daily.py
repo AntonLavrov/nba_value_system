@@ -2,98 +2,142 @@
 
 import json
 from datetime import datetime
-
+from data.game_object import Game
 from engine.game_processor import GameProcessor
-
-from parsers.schedule_parser import load_games_today
-from parsers.ratings_parser import load_team_ratings
-from parsers.injury_parser import load_injuries
 from parsers.odds_parser import load_odds
 
-from core.export.export_json import export_to_json
-from core.export.export_xlsx import export_to_xlsx
-from core.export.export_html import export_to_html
+def load_schedule_for_fatigue(path="data/schedule.json"):
+    """
+    Формирует словарь:
+    {
+      "LAL": [date1, date2, ...],
+      "GSW": [...],
+      ...
+    }
+    """
+    from datetime import datetime
+    with open(path, "r", encoding="utf-8") as f:
+        raw = json.load(f)
 
+    schedules = {}
 
-class Game:
-    """Простой объект матча, который передаётся в GameProcessor."""
-    def __init__(self, game_id, date, home, away):
-        self.id = game_id
-        self.date = date
-        self.home = home
-        self.away = away
-
-
-def run_daily():
-    print("=== Запуск ежедневной модели NBA ===")
-
-    # -----------------------------------------------
-    # Загрузка данных
-    # -----------------------------------------------
-    print("Загрузка рейтингов команд...")
-    team_ratings = load_team_ratings()
-
-    print("Загрузка травм...")
-    injuries = load_injuries()
-
-    print("Загрузка коэффициентов...")
-    odds = load_odds()
-
-    print("Загрузка расписания на сегодня...")
-    schedule_today = load_games_today()
-
-    # -----------------------------------------------
-    # Создаём список объектов Game
-    # -----------------------------------------------
-    games = []
-    for entry in schedule_today:
-        game_id = entry["game_id"]
-        date = entry["date"]
+    for entry in raw:
+        d = datetime.strptime(entry["date"], "%Y-%m-%d").date()
         home = entry["home"]
         away = entry["away"]
 
-        g = Game(
-            game_id=game_id,
-            date=datetime.strptime(date, "%Y-%m-%d").date(),
-            home=home,
-            away=away
+        schedules.setdefault(home, []).append(d)
+        schedules.setdefault(away, []).append(d)
+
+    return schedules
+
+
+def run_daily():
+
+    print("======================================")
+    print("     NBA VALUE SYSTEM — DAILY RUN     ")
+    print("======================================")
+
+    # --------------------------------------
+    # Load schedule_today
+    # --------------------------------------
+    print("Загрузка расписания...")
+    with open("data/schedule_today.json", "r", encoding="utf-8") as f:
+        games_today = json.load(f)
+
+    print(f"Матчей найдено: {len(games_today)}")
+
+    # --------------------------------------
+    # Load ratings
+    # --------------------------------------
+    print("Загрузка рейтингов...")
+    ratings = {}
+    try:
+        with open("data/team_ratings.json", "r", encoding="utf-8") as f:
+            ratings = json.load(f)
+    except:
+        print("⚠ Нет файла team_ratings.json")
+
+    # --------------------------------------
+    # Load injuries
+    # --------------------------------------
+    print("Загрузка травм...")
+    injuries_today = {}
+    try:
+        with open("data/injuries_today.json", "r", encoding="utf-8") as f:
+            injuries_today = json.load(f)
+    except:
+        print("⚠ Нет injuries_today.json")
+
+    # --------------------------------------
+    # Load odds
+    # --------------------------------------
+    print("Загрузка коэффициентов...")
+    odds = load_odds()
+
+    # --------------------------------------
+    # Build game objects
+    # --------------------------------------
+    print("Обогащение объектов игр...")
+
+    game_objects = []
+
+    for g in games_today:
+        game = Game(
+            id=g["game_id"],
+            date=datetime.strptime(g["date"], "%Y-%m-%d").date(),
+            home=g["home"],
+            away=g["away"]
         )
 
-        # добавляем рейтинги
-        g.rating_home = team_ratings.get(home, 0.0)
-        g.rating_away = team_ratings.get(away, 0.0)
+        game.rating_home = ratings.get(game.home, 100)
+        game.rating_away = ratings.get(game.away, 100)
 
-        # травмы
-        g.injuries_home = injuries.get(home, [])
-        g.injuries_away = injuries.get(away, [])
+        game.injuries_home = injuries_today.get(game.home, [])
+        game.injuries_away = injuries_today.get(game.away, [])
 
-        # коэффициенты
-        g.odds = odds.get(game_id, {})
+        game.odds = odds.get(g["game_id"], {})
 
-        games.append(g)
+        game_objects.append(game)
 
-    # -----------------------------------------------
-    # Запуск обработки всех игр
-    # -----------------------------------------------
+    # --------------------------------------
+    # GameProcessor
+    # --------------------------------------
+    print("Создание GameProcessor...")
     processor = GameProcessor()
-    results = []
 
-    print("Обработка игр:")
-    for game in games:
-        print(f"  → {game.home} vs {game.away}")
+    # --------------------------------------
+    # Load fatigue schedule
+    # --------------------------------------
+    print("Загрузка расписания для FatigueModule...")
+    schedule_for_fatigue = load_schedule_for_fatigue("data/schedule.json")
+    processor.fatigue.load_schedule(schedule_for_fatigue)
+
+    # --------------------------------------
+    # Run models
+    # --------------------------------------
+    print("Запуск модели...")
+
+    contexts = []
+
+    for game in game_objects:
         ctx = processor.process(game)
-        results.append(ctx)
+        contexts.append(ctx)
 
-    # -----------------------------------------------
-    # Экспорт результатов
-    # -----------------------------------------------
+    # --------------------------------------
+    # Exporters (names fixed)
+    # --------------------------------------
     print("Сохранение результатов...")
 
-    export_to_json(results, "outputs/value_today.json")
-    export_to_xlsx(results, "outputs/value_today.xlsx")
-    export_to_html(results, "outputs/value_today.html")
+    from core.export.export_json import export_to_json
+    from core.export.export_html import export_to_html
+    from core.export.export_xlsx import export_to_xlsx
 
-    print("Готово! Результаты сохранены в outputs/.")
+    export_to_json(contexts, "outputs/value_today.json")
+    export_to_html(contexts, "outputs/value_today.html")
+    export_to_xlsx(contexts, "outputs/value_today.xlsx")
+
+    print("Готово!")
 
 
 if __name__ == "__main__":

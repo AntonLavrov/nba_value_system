@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>NBA Value System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Базовые стили разметки -->
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Тема через CSS-переменные -->
+    <link id="theme-style" rel="stylesheet" href="styles/light.css" />
+
+    <!-- Chart.js (глобальная переменная window.Chart) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Основная логика -->
+    <script type="module" src="./dashboard.js"></script>
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="header-left">
+            <h1 class="app-title">NBA Value System</h1>
+            <span class="app-subtitle">Value-беттинг по нашим моделям</span>
+        </div>
+        <div class="header-right">
+            <div class="theme-toggle">
+                <button id="light-btn" class="theme-btn" type="button" data-theme="light">
+                    Light
+                </button>
+                <button id="dark-btn" class="theme-btn" type="button" data-theme="dark">
+                    Dark
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-layout">
+        <section class="panel filters-panel">
+            <div class="panel-header">
+                <h2>Фильтры</h2>
+            </div>
+            <div id="filters-container" class="filters-container"></div>
+        </section>
+
+        <section class="panel table-panel">
+            <div class="panel-header">
+                <h2>Value-ставки на сегодня</h2>
+            </div>
+            <div id="table-container" class="table-container">
+                <!-- Таблица рендерится из JS -->
+            </div>
+        </section>
+
+        <section class="panel charts-panel">
+            <div class="panel-header">
+                <h2>Графики по выбранной ставке</h2>
+            </div>
+            <div class="charts-wrapper">
+                <canvas id="charts-canvas"></canvas>
+                <div id="chart-empty" class="chart-empty">
+                    Выбери строку в таблице, чтобы увидеть графики.
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<!-- Привязка кнопок темы к window.setTheme -->
+<script>
+    const lightBtn = document.getElementById("light-btn");
+    const darkBtn = document.getElementById("dark-btn");
+
+    if (lightBtn) {
+        lightBtn.addEventListener("click", () => {
+            if (window.setTheme) window.setTheme("light");
+        });
+    }
+    if (darkBtn) {
+        darkBtn.addEventListener("click", () => {
+            if (window.setTheme) window.setTheme("dark");
+        });
+    }
+</script>
+</body>
+</html>

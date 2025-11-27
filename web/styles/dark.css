@@ -1,0 +1,27 @@
+body {
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: "Inter", Arial, sans-serif;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #161b22;
+    color: #e6edf3;
+}
+
+th, td {
+    border: 1px solid #30363d;
+    padding: 6px 10px;
+}
+
+thead tr {
+    background: #21262d;
+}
+
+tbody tr:hover {
+    background: #1f242d;
+}

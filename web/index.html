@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>NBA Value System</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link id="theme-style" rel="stylesheet" href="styles/light.css" />
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        function setTheme(t) {
+            const link = document.getElementById("theme-style");
+            if (t === "dark") {
+                link.href = "styles/main.css";
+            } else {
+                link.href = "styles/light.css";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>NBA Value System</h1>
+
+    <button onclick="setTheme('light')">Light</button>
+    <button onclick="setTheme('dark')">Dark</button>
+
+    <!-- Вот эти блоки — критично важны! -->
+    <div id="filters"></div>
+    <div id="table-area"></div>
+    <div id="chart"></div>
+
+    <script type="module" src="dashboard.js"></script>
+</body>
+</html>
